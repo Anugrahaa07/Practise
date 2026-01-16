@@ -13,9 +13,9 @@ int main() {
     surface_area = 4 * 3.14 * pow(r,2);
     volume = (4/3) * 3.14 * pow(r,3);
     
-    printf("The area of the circle is %f\n", area);
-    printf("The surface area of the sphere is %f\n", surface_area);
-    printf("The volume of the sphere is %f", volume);
+    printf("The area of the circle is %.2lf\n", area);
+    printf("The surface area of the sphere is %.2lf\n", surface_area);
+    printf("The volume of the sphere is %.2lf", volume);
     
    return 0;
 }
